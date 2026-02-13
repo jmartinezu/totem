@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "nombre": "Big Burger",
+        "precio": 8.50,
+        "categoria": "hamburguesas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Doble Queso",
+        "precio": 9.25,
+        "categoria": "hamburguesas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Chicken Deluxe",
+        "precio": 7.50,
+        "categoria": "hamburguesas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "BBQ Bacon Burger",
+        "precio": 10.00,
+        "categoria": "hamburguesas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Veggie Burger",
+        "precio": 8.00,
+        "categoria": "hamburguesas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Papas Medianas",
+        "precio": 3.00,
+        "categoria": "papas",
+        "imagen": "assets/img/papas.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Papas Grandes",
+        "precio": 4.50,
+        "categoria": "papas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Papas con Queso",
+        "precio": 5.50,
+        "categoria": "papas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Nuggets x6",
+        "precio": 4.00,
+        "categoria": "papas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Aros de Cebolla",
+        "precio": 3.50,
+        "categoria": "papas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Coca-Cola 500ml",
+        "precio": 2.50,
+        "categoria": "bebidas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Fanta Naranja",
+        "precio": 2.50,
+        "categoria": "bebidas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Sprite Lima",
+        "precio": 2.50,
+        "categoria": "bebidas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Agua Mineral",
+        "precio": 1.50,
+        "categoria": "bebidas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Té Frío",
+        "precio": 2.75,
+        "categoria": "bebidas",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Cono de Vainilla",
+        "precio": 1.50,
+        "categoria": "postres",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Sundae Chocolate",
+        "precio": 3.50,
+        "categoria": "postres",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Pay de Manzana",
+        "precio": 2.00,
+        "categoria": "postres",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 19,
+        "nombre": "Malteada Oreo",
+        "precio": 5.00,
+        "categoria": "postres",
+        "imagen": "assets/img/burger.jpg"
+    },
+    {
+        "id": 20,
+        "nombre": "Muffin Arándanos",
+        "precio": 2.50,
+        "categoria": "postres",
+        "imagen": "assets/img/burger.jpg"
+    }
+]

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiosko de Autoservicio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <main class="kiosko-container">
+        <aside class="sidebar">
+            <nav id="categorias">
+                <button class="cat-btn active" data-cat="todas">🍔 Todo</button>
+                <button class="cat-btn" data-cat="hamburguesas">Burgers</button>
+                <button class="cat-btn" data-cat="papas">Papas</button>
+                <button class="cat-btn" data-cat="bebidas">Bebidas</button>
+            </nav>
+        </aside>
+
+        <section class="menu-section">
+            <header>
+                <h1>Elige tu Menú</h1>
+            </header>
+            <div id="productos-grid" class="grid">
+                </div>
+        </section>
+
+        <aside class="cart-sidebar">
+            <h2>Tu Pedido</h2>
+            <div id="carrito-items"></div>
+            <div class="cart-total">
+                <p>Total: <span id="total-precio">$0.00</span></p>
+                <button id="btn-pagar" class="checkout-btn">Pagar Ahora</button>
+            </div>
+        </aside>
+    </main>
+
+    <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>

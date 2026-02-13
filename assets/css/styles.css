@@ -1,0 +1,195 @@
+:root {
+    --primary: #ffbc0d; /* El amarillo clásico */
+    --secondary: #272727;
+    --accent: #db0007; /* Rojo McDonald's */
+    --bg: #121212;
+    --card-bg: #1e1e1e;
+    --text: #ffffff;
+    --gray: #a0a0a0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.kiosko-container {
+    display: grid;
+    grid-template-columns: 140px 1fr 380px;
+    height: 100vh;
+}
+
+/* --- SIDEBAR --- */
+.sidebar {
+    background: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    border-right: 1px solid #333;
+}
+
+.cat-btn {
+    background: transparent;
+    border: none;
+    color: var(--gray);
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.cat-btn.active {
+    color: var(--primary);
+    border-left: 4px solid var(--primary);
+    background: rgba(255, 188, 13, 0.1);
+}
+
+/* --- PRODUCT GRID --- */
+.menu-section {
+    padding: 2rem;
+    overflow-y: auto;
+    background: radial-gradient(circle at top right, #1a1a1a, #121212);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.product-card {
+    background: var(--card-bg);
+    border-radius: 24px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #333;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.product-card img {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.product-card button {
+    background: var(--primary);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.product-card button:active {
+    transform: scale(0.95);
+}
+
+/* --- CARRITO --- */
+.cart-sidebar {
+    background: var(--secondary);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+}
+
+.cart-sidebar h2 {
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 1rem;
+}
+
+#carrito-items {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #333;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-qty {
+    background: var(--primary);
+    color: black;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+
+.cart-total {
+    padding-top: 2rem;
+}
+
+.total-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.checkout-btn {
+    background: var(--accent);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(219, 0, 7, 0.4);
+}
